@@ -29,7 +29,7 @@ def hide(self):
 
 
 def secret(self):
-	grid = self.parent.parent.children[0]
+	grid = self.parent
 	for i in grid.children:
 		if i == self:
 			i.text = "YOU WON"
